@@ -1,0 +1,21 @@
+{
+  "name": "proyecto_base_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open --browser chrome --e2e",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.2.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.19.3",
+    "multiple-cucumber-html-reporter": "^3.5.0"
+  }
+}
